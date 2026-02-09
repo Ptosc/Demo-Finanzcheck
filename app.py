@@ -6,7 +6,7 @@ import tabs.ausgabe as ausgabe, tabs.arbeitszeit as arbeitszeit, tabs.browse_dat
 def main():
     df = load_data()
 
-    tab1, tab2, tab3, tab4  = st.tabs(['Überblick', 'Arbeitszeit', 'Kauf eintragen', 'Alle Ausgaben'], width='stretch')
+    tab1, tab2, tab3, tab4  = st.tabs(['📊 Überblick', '⏱️ Arbeitszeit', '💸 Kauf eintragen', '📂 Alle Ausgaben'], width='stretch')
 
     with tab1:
         überblick.render(df)
