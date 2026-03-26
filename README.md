@@ -1,24 +1,42 @@
-# 💵 Ausgaben-Tracker
+# 💰 Ausgaben-Tracker
 
-Ein Streamlit-Tool zur Erfassung, Analyse und Reflexion von Ausgaben.
+Ein interaktives Tool zur Erfassung, Analyse und Reflexion persönlicher Ausgaben.
 
----
-
-# Features
-
-Ausgaben direkt erfassen: Kategorie, Betrag, Beschreibung, Zahlungsart
-
-Übersicht: Ausgaben nach Kategorie, Monat, Woche und Tag
-
-Top-5 Einzelausgaben & Heatmap für Mustererkennung
-
-Arbeitszeit hinter jeder Ausgabe berechnen
-
-Reflexion: Nutzen jeder Ausgabe bewerten + Emoji-Feedback
+Dieses Streamlit-Projekt hilft dir, Finanzen transparent zu machen, Muster zu erkennen und bewusstere Entscheidungen zu treffen. Statt nur Zahlen zu sehen, bekommst du Einblicke in Arbeitszeit, Budgetverteilung und Sparpotenziale.
 
 ---
 
-# Streamlit-App-Link:
-https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
+## Funktionen
 
-⚠️ Läuft auf Streamlit Cloud, kann nach Inaktivität kurz „einschlafen“.
+### 1. Überblick
+- Gesamtübersicht über Ausgaben, Transaktionen und Durchschnitt pro Tag  
+- Visualisierung von Ausgaben nach Kategorien  
+- Vergleich zum vorherigen Zeitraum  
+
+### 2. Arbeitszeit
+- Berechnet, wie viele Stunden Arbeit hinter jeder Ausgabe stecken  
+- Zeigt Einsparpotenziale und den „Zeitwert“ des Geldes  
+
+### 3. Kauf eintragen
+- Einfaches Formular zum Eintragen neuer Ausgaben  
+- Kategorien, Betrag, Beschreibung und Zahlungsart  
+- Speicherung in Google Sheets  
+
+### 4. Alle Ausgaben
+- Durchsuchen, Filtern und Analysieren aller bisherigen Einträge  
+- Heatmap zur Erkennung von Ausgabemustern  
+- Top-Einzelausgaben visualisieren Impulskäufe  
+
+### 5. Reflexion
+- Bewertungs-Tool: Wie wertvoll war jede Ausgabe?  
+- Dynamische Feedback-Texte zur Selbstreflexion  
+- Inspirierende Zitate für achtsame Finanzentscheidungen  
+
+---
+
+## Technischer Überblick
+- **Programmiersprache:** Python  
+- **Framework:** Streamlit  
+- **Visualisierung:** Matplotlib, Seaborn  
+- **Datenpersistenz:** Google Sheets API  
+- **Architektur:** Modular (Tabs, Data, Analyse, Visualisierung)
