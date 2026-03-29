@@ -1,11 +1,11 @@
 
 # 💰 Ausgaben-Tool (Demo-Version)
 
-Ein interaktives Streamlit-Projekt zur Erfassung, Analyse und Reflexion persönlicher Ausgaben. Entstanden, weil meine Schwester sich ständig beschwert hat, dass sie zu viel impulsiv ausgibt. Ich dachte: cooles Projekt bauen, das ihr wirklich hilft – und jetzt benutzen wir die App tatsächlich beide, ich tracke sogar meine eigenen Einnahmen. 😅
+Ein interaktives Streamlit-Projekt zur Erfassung, Analyse und Reflexion persönlicher Ausgaben. Entstanden, weil meine Schwester sich ständig beschwert hat, dass sie zu viel impulsiv ausgibt. Ich dachte ich kann ein cooles Projekt bauen, das ihr wirklich hilft und jetzt benutzen wir die App tatsächlich beide, ich tracke sogar meine eigenen Einnahmen.
 
-In dieser Demo-Version gibt es generierte Daten, damit man die Funktionen ausprobieren kann. Das Tool visualisiert Ausgaben, zeigt den Arbeitszeitaufwand hinter jeder Ausgabe und Sparpotenziale – alles automatisch, sodass Ergebnisse sofort sichtbar sind.
+In dieser Demo-Version gibt es generierte Daten, damit man die Funktionen ausprobieren kann. Das Tool visualisiert Ausgaben und zeigt den Arbeitszeitaufwand hinter jeder Ausgabe und Sparpotenziale automatisch, sodass Ergebnisse sofort sichtbar sind.
 
-Demo ansehen: Ausgaben-Tracker￼
+Demo ansehen: https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
 
 ⸻
 
@@ -18,12 +18,12 @@ Demo ansehen: Ausgaben-Tracker￼
 
 2. Arbeitszeit
 	•	Berechnet, wie viele Stunden Arbeit hinter jeder Ausgabe stecken
-	•	Zeigt Einsparpotenziale und den „Zeitwert“ des Geldes
+	•	Zeigt Sparpotenziale und den Zeitwert des Geldes
 
 3. Kauf eintragen
-	•	Formular zur Erfassung neuer Ausgaben
+	•	Formular zur Erfassung neuer Ausgaben (auch über google Forms möglich)
 	•	Kategorien, Betrag, Beschreibung und Zahlungsart
-	•	Speicherung in Google Sheets
+	•	Speicherung in Google Sheets 
 
 4. Alle Ausgaben
 	•	Durchsuchen, Filtern und Analysieren aller bisherigen Einträge
@@ -35,7 +35,7 @@ Demo ansehen: Ausgaben-Tracker￼
 	•	Dynamische Feedback-Texte zur Selbstreflexion
 	•	Inspirierende Zitate für achtsame Finanzentscheidungen
 
-Ich habe schnell gemerkt, dass nicht jede „coole“ Idee auch wirklich benutzt wird. Zum Beispiel dachte ich zuerst, dass jeder eine Heatmap haben will – am Ende haben wir sie fast nie genutzt. Echtes Feedback von mir und meiner Schwester war viel hilfreicher als alle theoretischen Überlegungen.
+Ich habe schnell gemerkt, dass nicht jede coole Idee auch wirklich benutzt wird. Zum Beispiel dachte ich zuerst, dass jeder eine Heatmap haben will, am Ende haben wir sie so gut wie nie genutzt. Echtes Feedback von mir und meiner Schwester war viel hilfreicher als alle theoretischen Gedanken.
 
 ⸻
 
