@@ -1,8 +1,11 @@
+
 # 💰 Ausgaben-Tool (Demo-Version)
 
-Ein interaktives Streamlit-Projekt zur Erfassung, Analyse und Reflexion persönlicher Ausgaben. In dieser Demo-Version werden generierte Daten verwendet, um die Funktionalität zu demonstrieren. Das Tool visualisiert Ausgaben, analysiert Arbeitszeit hinter Kosten und zeigt Sparpotenziale auf – alles automatisiert, sodass die Ergebnisse sofort sichtbar sind.
+Ein interaktives Streamlit-Projekt zur Erfassung, Analyse und Reflexion persönlicher Ausgaben. Entstanden, weil meine Schwester sich ständig beschwert hat, dass sie zu viel impulsiv ausgibt. Ich dachte: cooles Projekt bauen, das ihr wirklich hilft – und jetzt benutzen wir die App tatsächlich beide, ich tracke sogar meine eigenen Einnahmen. 😅
 
-Demo ansehen: https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
+In dieser Demo-Version gibt es generierte Daten, damit man die Funktionen ausprobieren kann. Das Tool visualisiert Ausgaben, zeigt den Arbeitszeitaufwand hinter jeder Ausgabe und Sparpotenziale – alles automatisch, sodass Ergebnisse sofort sichtbar sind.
+
+Demo ansehen: Ausgaben-Tracker￼
 
 ⸻
 
@@ -32,6 +35,8 @@ Demo ansehen: https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
 	•	Dynamische Feedback-Texte zur Selbstreflexion
 	•	Inspirierende Zitate für achtsame Finanzentscheidungen
 
+Ich habe schnell gemerkt, dass nicht jede „coole“ Idee auch wirklich benutzt wird. Zum Beispiel dachte ich zuerst, dass jeder eine Heatmap haben will – am Ende haben wir sie fast nie genutzt. Echtes Feedback von mir und meiner Schwester war viel hilfreicher als alle theoretischen Überlegungen.
+
 ⸻
 
 ### Technischer Überblick
@@ -40,3 +45,4 @@ Demo ansehen: https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
 	•	Visualisierung: Matplotlib, Seaborn
 	•	Datenpersistenz: Google Sheets API
 	•	Architektur: Modular (Tabs, Data, Analyse, Visualisierung)
+	•	Besonderheiten: Google Authenticator Integration war tricky, genauso wie 		SessionStates in Streamlit
