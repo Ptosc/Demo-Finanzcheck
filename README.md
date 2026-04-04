@@ -1,48 +1,42 @@
-
 # 💰 Ausgaben-Tool (Demo-Version)
 
-Ein interaktives Streamlit-Projekt zur Erfassung, Analyse und Reflexion persönlicher Ausgaben. Entstanden, weil meine Schwester sich ständig beschwert hat, dass sie zu viel impulsiv ausgibt. Ich dachte ich kann ein cooles Projekt bauen, das ihr wirklich hilft und jetzt benutzen wir die App tatsächlich beide, ich tracke sogar meine eigenen Einnahmen.
+Ich habe das Projekt gebaut, weil meine Schwester meinte, dass sie zu viel impulsiv Geld ausgibt.  
+Daraus ist ein Tool entstanden, das Ausgaben trackt und sichtbar macht, wofür man eigentlich arbeitet. Inzwischen nutze ich es auch selbst.
 
-In dieser Demo-Version gibt es generierte Daten, damit man die Funktionen ausprobieren kann. Das Tool visualisiert Ausgaben und zeigt den Arbeitszeitaufwand hinter jeder Ausgabe und Sparpotenziale automatisch, sodass Ergebnisse sofort sichtbar sind.
+In der Demo-Version gibt es generierte Daten, damit man alles direkt ausprobieren kann.
 
-Demo ansehen: https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app
+[Hier klicken für Demo](https://ausgabencheck-f7zmzpgxewyy9xufzpvpel.streamlit.app)
+(Läuft auf Streamlit Cloud und kann beim ersten Start ein paar Sekunden brauchen)
 
-⸻
+
+---
 
 ## Funktionen
 
-1. Überblick
-	•	Gesamtübersicht über Ausgaben, Transaktionen und Durchschnitt pro Tag
-	•	Visualisierung nach Kategorien
-	•	Vergleich zu vorherigen Zeiträumen
+**Überblick**
+- Gesamtübersicht über Ausgaben und Durchschnitt pro Tag  
+- Visualisierung nach Kategorien  
+- Vergleich zu vorherigen Zeiträumen  
 
-2. Arbeitszeit
-	•	Berechnet, wie viele Stunden Arbeit hinter jeder Ausgabe stecken
-	•	Zeigt Sparpotenziale und den Zeitwert des Geldes
+**Arbeitszeit**
+- Zeigt, wie viele Stunden Arbeit hinter einer Ausgabe stecken  
+- Macht Sparpotenziale sichtbar  
 
-3. Kauf eintragen
-	•	Formular zur Erfassung neuer Ausgaben (auch über google Forms möglich)
-	•	Kategorien, Betrag, Beschreibung und Zahlungsart
-	•	Speicherung in Google Sheets 
+**Kauf eintragen**
+- Neue Ausgaben erfassen (auch über Google Forms)  
+- Speicherung in Google Sheets  
 
-4. Alle Ausgaben
-	•	Durchsuchen, Filtern und Analysieren aller bisherigen Einträge
-	•	Heatmap zur Erkennung von Ausgabemustern
-	•	Top-Einzelausgaben visualisieren Impulskäufe
+**Analyse**
+- Filtern und Durchsuchen aller Ausgaben  
+- Heatmap für Muster  
+- Große Einzelkäufe sichtbar machen  
 
-5. Reflexion
-	•	Bewertungs-Tool: Wie wertvoll war jede Ausgabe?
-	•	Dynamische Feedback-Texte zur Selbstreflexion
-	•	Inspirierende Zitate für achtsame Finanzentscheidungen
+**Reflexion**
+- Bewertung von Ausgaben  
+- Feedback zur eigenen Nutzung  
+- Kleine Denkanstöße für bewusstere Entscheidungen  
 
-Ich habe schnell gemerkt, dass nicht jede coole Idee auch wirklich benutzt wird. Zum Beispiel dachte ich zuerst, dass jeder eine Heatmap haben will, am Ende haben wir sie so gut wie nie genutzt. Echtes Feedback von mir und meiner Schwester war viel hilfreicher als alle theoretischen Gedanken.
+---
 
-⸻
-
-### Technischer Überblick
-	•	Programmiersprache: Python
-	•	Framework: Streamlit
-	•	Visualisierung: Matplotlib, Seaborn
-	•	Datenpersistenz: Google Sheets API
-	•	Architektur: Modular (Tabs, Data, Analyse, Visualisierung)
-	•	Besonderheiten: Google Authenticator Integration war tricky, genauso wie 		SessionStates in Streamlit
+Beim Bauen habe ich gemerkt, dass nicht jede coole Idee auch wirklich genutzt wird.  
+Die Heatmap fand ich am Anfang stark, am Ende war echtes Feedback viel wertvoller.
